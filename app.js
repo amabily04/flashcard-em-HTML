@@ -12,3 +12,11 @@ criaCartao.innerHTML=
 <p>${resposta}</p>
 </div>
 </div>
+let respostaEstaVisvel=false
+fuction viraCartão() {
+    respostaEstaVisvel=!respostaEstaVisvel
+    cartao.classList.toggle('active,respostaEstaVisivel')
+}
+cartão.addEventListener('click',viraCartão)
+container.appendChild(cartão)
+}
