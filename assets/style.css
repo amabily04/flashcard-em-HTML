@@ -1,20 +1,17 @@
-/* ✅ CORREÇÃO: precisa ter dois traços (--) antes das variáveis */
 :root {
     --text-color: #DBE4EF;
     --card-front-color: #144480;
     --card-back-color: #00F4BF;
 }
 
-/* ✅ Adicionado fallback para fonte */
 body {
     background: url('img/bg-desktop.webp') no-repeat center center / cover;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-/* ✅ Removido “:” extra no final */
 #container {
     display: flex;
-    flex-wrap: wrap; /* ajuda na responsividade */
+    flex-wrap: wrap;
     justify-content: center;
 }
 
