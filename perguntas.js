@@ -1,30 +1,23 @@
-# Formato:
-# criaCartão(
-#     'Categoria',
-#     'Pergunta',
-#     'Resposta'
-# )
-
-criaCartão(
+criaCartao(
     'Programação',
     'O que é Python?',
-    'Python é uma linguagem de programação.'
+    'O Python é uma linguagem de programação'
 )
 
-criaCartão(
+criaCartao(
     'Geografia',
-    'Qual é a capital da França?',
-    'A capital da França é Paris.'
+    'Qual a capital da França?',
+    'A capital da França é Paris'
 )
 
-criaCartão(
+criaCartao(
     'Programação',
     'O que é uma função?',
-    'Uma função é um bloco de código que executa uma tarefa específica.'
+    'Uma função é um bloco de código que executa alguma tarefa'
 )
 
-criaCartão(  # Corrigido o erro de digitação de 'criaCartao' para 'criaCartão'
-    'Língua Inglesa',  # Padronizado o nome da categoria
-    'Como se diz "oi" em inglês?',  # Ajustado o formato da pergunta
-    '"Oi" em inglês é "Hi" (pronuncia-se /rai/).'  # Padronizado e com pronúncia
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
 )
